@@ -26,7 +26,7 @@ class MyunitTest {
     fun numExistsTest() {
         var nums = listOf<Int>(1, 2, 3)
         var outPut: Int = Myunit.search(nums,3)
-        var expect:Int =10
+        var expect:Int =5
         assertEquals(expect,outPut)
 
 
